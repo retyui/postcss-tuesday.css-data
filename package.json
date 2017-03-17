@@ -1,0 +1,35 @@
+{
+	"name": "postcss-tuesday.css-data"
+	, "version": "0.0.1"
+	, "main": "index.json"
+	, "scripts": {
+		"debug": "node --inspect --debug-brk parse.js"
+		, "build": "node parse.js"
+	}
+
+	, "license": "ISC"
+	, "devDependencies": {
+		"tuesday": "git+https://github.com/shakrmedia/tuesday.git"
+		, "bluebird": "^3.5.0"
+		, "css": "^2.2.1"
+	}
+	, "description": "PostCSS plugin that adds `@keyframes` from tuesday.css."
+	, "keywords": [
+		"postcss"
+		, "css"
+		, "postcss-plugin"
+		, "animation"
+		, "keyframes"
+		, "tuesday.css"
+	]
+	, "license": "MIT"
+	, "repository": {
+		"type": "git"
+		, "url": "https://github.com/retyui/postcss-tuesday.css-data.git"
+	}
+	, "author": "retyui <vamnemne@gmail.com>"
+	, "bugs": {
+		"url": "https://github.com/retyui/postcss-tuesday.css-data/issues"
+	}
+	, "homepage": "https://github.com/retyui/postcss-tuesday.css-data"
+}
