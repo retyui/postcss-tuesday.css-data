@@ -1,6 +1,6 @@
 {
   "name": "postcss-tuesday.css-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.json",
   "scripts": {
     "debug": "node --inspect --debug-brk parse.js",
