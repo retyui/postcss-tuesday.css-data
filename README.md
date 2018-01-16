@@ -44,9 +44,9 @@ const postcssAnimations = require('postcss-animations');
 
 ## Other animation data:
 
-* ![npm postcss-animation.css-data](https://img.shields.io/npm/dm/postcss-animation.css-data.svg) [postcss-animation.css-data](https://github.com/retyui/postcss-animation.css-data)
-* ![npm postcss-magic.css-data](https://img.shields.io/npm/dm/postcss-magic.css-data.svg) [postcss-magic.css-data](https://github.com/retyui/postcss-magic.css-data)
-* ![npm postcss-mimic.css-data](https://img.shields.io/npm/dm/postcss-mimic.css-data.svg) [postcss-mimic.css-data](https://github.com/retyui/postcss-mimic.css-data)
+* [![npm postcss-animation.css-data](https://img.shields.io/npm/dm/postcss-animation.css-data.svg)](https://www.npmjs.com/package/postcss-animation.css-data) [postcss-animation.css-data](https://github.com/retyui/postcss-animation.css-data)
+* [![npm postcss-magic.css-data](https://img.shields.io/npm/dm/postcss-magic.css-data.svg)](https://www.npmjs.com/package/postcss-magic.css-data) [postcss-magic.css-data](https://github.com/retyui/postcss-magic.css-data)
+* [![npm postcss-mimic.css-data](https://img.shields.io/npm/dm/postcss-mimic.css-data.svg)](https://www.npmjs.com/package/postcss-mimic.css-data) [postcss-mimic.css-data](https://github.com/retyui/postcss-mimic.css-data)
 
 ## Update data:
 
