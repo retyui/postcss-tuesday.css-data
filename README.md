@@ -14,21 +14,23 @@ yarn add -D postcss-tuesday.css-data postcss-animations
 ## Use
 
 ```js
-const           postcss = require('postcss');
-const postcssAnimations = require('postcss-animations');
+const postcss = require("postcss");
+const postcssAnimations = require("postcss-animations");
 
 (async () => {
   const CSS = `.my-tdExpandIn { animation-name: tdExpandIn; }`;
   const PLUGINS = [
     postcssAnimations({
-      data: [require('postcss-tuesday.css-data')],
+      data: [require("postcss-tuesday.css-data")],
       checkDuplications: true,
       disableCheckCssVariables: true
     })
   ];
 
   try {
-    const { css, messages } = await postcss(PLUGINS).process(CSS/*, {from,to}*/);
+    const { css, messages } = await postcss(PLUGINS).process(
+      CSS /*, {from,to}*/
+    );
     messages.map(msg => console.log(msg.toString()));
 
     console.log(css);
