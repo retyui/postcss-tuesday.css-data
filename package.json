@@ -1,35 +1,26 @@
 {
-  "name": "postcss-tuesday.css-data",
-  "version": "0.1.2",
-  "main": "index.json",
-  "scripts": {
-    "debug": "node --inspect --debug-brk parse.js",
-    "build": "node parse.js",
-    "prepublish": "npm run build"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "css-parse-keyframes": "^0.0.4",
-    "tuesday": "git+https://github.com/shakrmedia/tuesday.git"
-  },
-  "description": "Package that adds `@keyframes` from tuesday.css.",
-  "keywords": [
-    "css",
-    "animation",
-    "keyframes",
-    "tuesday.css"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/retyui/postcss-tuesday.css-data.git"
-  },
-  "author": {
-    "name": "David Narbutovich",
-    "email": "vamnemne@gmail.com",
-    "url": "https://github.com/retyui"
-  },
-  "bugs": {
-    "url": "https://github.com/retyui/postcss-tuesday.css-data/issues"
-  },
-  "homepage": "https://github.com/retyui/postcss-tuesday.css-data"
+	"version": "1.0.0",
+	"name": "postcss-tuesday.css-data",
+	"description": "Package that adds `@keyframes` from tuesday.css.",
+	"license": "MIT",
+	"main": "index.json",
+	"files": [],
+	"scripts": {
+		"build": "node parse.js",
+		"prepare": "npm run build"
+	},
+	"peerDependencies": {
+		"postcss-animations": "6.x"
+	},
+	"devDependencies": {
+		"css-parse-keyframes": "^0.0.4",
+		"tuesday": "shakrmedia/tuesday"
+
+	},
+	"keywords": ["css", "animation", "keyframes", "tuesday.css"],
+	"repository": "https://github.com/retyui/postcss-tuesday.css-data",
+	"author": "David Narbutovich <vamnemne@gmail.com>",
+	"engines": {
+		"node": ">= 4.2"
+	}
 }
