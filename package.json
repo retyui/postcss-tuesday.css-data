@@ -1,5 +1,5 @@
 {
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "postcss-tuesday.css-data",
 	"description": "Package that adds `@keyframes` from tuesday.css.",
 	"license": "MIT",
